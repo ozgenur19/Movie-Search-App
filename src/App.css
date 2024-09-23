@@ -1,0 +1,66 @@
+/* src/App.css */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #00000020;
+  color: rgb(139, 46, 46);
+  align-items: center; /* İçerikleri dikeyde ortalamak için */
+  position: relative; /* İçeriklerin konumunu ayarlamak için */
+}
+
+nav h1 {
+  color: rgb(139, 46, 46);
+  font-size: 50px;
+}
+
+
+nav .buttons {
+  display: flex;
+  align-items: center; 
+}
+
+nav button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.loginbutton {
+  background-color: #61dafb;
+  color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+nav .register-button {
+  background-color: #61dafb;
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+nav .logout-button {
+  background-color: rgba(255, 0, 174, 0.266);
+  color: white;
+}
+
+nav .favorites-count {
+  cursor: pointer;
+  margin-left: 2px;
+  margin-right: 2px;
+  color: white;
+  text-decoration: none;
+}
+
+nav .film-search-button {
+  background-color: #61dafb;
+  color: black;
+  height: 50px;
+  width: 100px;
+  margin-right: 10px;
+}

@@ -1,0 +1,48 @@
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+  padding: 20px;
+}
+
+.movie-item {
+  text-align: center;
+  width: 200px;
+  height: 350px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  padding: 10px;
+  box-shadow: 4px 4px 8px rgba(0.8, 0.8, 0.8, 0.8); 
+  border-radius: 10px;
+}
+
+.movie-item img {
+  max-width: 80%;
+  max-height: 220px; 
+  object-fit: cover; 
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.movie-item h3 {
+  font-size: 15px;
+  margin-top: 0;
+  flex-grow: 1;
+}
+
+.movie-item button {
+  padding: 5px 10px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  align-self: center;
+  
+}
+
+.movie-item button:hover {
+  background-color: black;
+}
