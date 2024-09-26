@@ -5,7 +5,7 @@ const MovieSearch = ({ onMoviesFetched }) => {
   const [query, setQuery] = useState('');
 
   const searchMovies = async () => {
-    const response = await axios.get(`http://www.omdbapi.com/?s=${query}&apikey=f73519fa`);
+    const response = await axios.get(`http://www.omdbapi.com/?s=${query}&apikey="YourApıKey"`);
     if (response.data.Search) {
       onMoviesFetched(response.data.Search);
     }
